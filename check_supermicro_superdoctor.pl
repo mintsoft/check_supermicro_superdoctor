@@ -3,7 +3,6 @@ use strict;
 use warnings;
 
 use Nagios::Plugin;
-use Data::Dump qw(dump);
 use Net::SNMP;
 
 my $np = Nagios::Plugin->new(
